@@ -15,7 +15,6 @@ body {
     background-color: #ffffff;
     color: hsl(0, 0%, 0%);
     overflow-x: hidden;
-    margin-left: 90px;
 }
 
 h1, h2, p{
@@ -27,7 +26,6 @@ nav{
   top: 0; 
   width: 100%;
   border-bottom: 2px solid rgb(0, 0, 0);
-  margin-right: 90px;
 }
 
 nav ul {
