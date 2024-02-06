@@ -5,8 +5,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 a{
-    color: rgb(0, 0, 0);
+    color: #000000;
     text-decoration: none;
 }
 
@@ -92,9 +93,14 @@ header{
 
 #ShowcaseImage{
   border: 2px solid #000000;
-  height: 30vw;
+  height: 28vw;
   width: auto;
-  margin-top: -px;
+  margin-left: 1vw;
+  transition: transform 2s;
+}
+
+#ShowcaseImage:hover{
+  transform: scale(1.03);
 }
 
 .darkmode{
