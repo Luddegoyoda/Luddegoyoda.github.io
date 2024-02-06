@@ -76,6 +76,7 @@ li{
 
 .leftside div p{
   margin-top: 30px;
+  font-size: 1vw;
   font-weight: bold;
 }
 
@@ -100,7 +101,65 @@ header{
   background-color: #000000;
   color: #ffffff;
 }
-@media screen and (max-width: 500px) {
+
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images div{
+  margin: 20px;
+  background-color: rgb(75, 183, 238);
+  padding: 30px;
+  font-size: 2vw;
+  text-align: center;
+  color: white;
+}
+
+.images div button{
+  margin-top: 15px;
+  padding: 20px 80px;
+  background-color: rgb(78, 78, 176);
+  color: white;
+  border: none;
+}
+
+.images img{
+  border: 3px solid black;
+  width: 25vw;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+footer{
+  height: 100%;
+  padding-bottom: 1vw;
+  width: 100vw;
+  background-color:#000000;
+}
+
+footer p{
+  padding-top: 3vw;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .leftside div p{
+    font-size: 2vw;
+  }
+  .images{
+    flex-direction: column;
+  }
+  nav ul {
+    font-size: 3.8vw;
+  }
+  
+}
+
+
+@media screen and (max-width: 520px) {
   nav li {
     margin: 2vw 1.5vw;
   }
@@ -136,45 +195,17 @@ header{
     padding-top: 1vw;
     height: 10vw;
   }
-}
-/* Images */
-
-@media screen and (max-width: 500px) {
-    .images{
-      flex-direction: column;
-    }
+  .images{
+    flex-direction: column;
   }
-.images{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.images div{
-  margin: 20px;
-  background-color: rgb(75, 183, 238);
-  padding: 30px;
-  font-size: 6vw;
-  text-align: center;
-  color: white;
-}
-
-.images div button{
-  margin-top: 15px;
-  padding: 20px 80px;
-  background-color: rgb(78, 78, 176);
-  color: white;
-  border: none;
-}
-
-.images img{
-  border: 3px solid black;
-  width: 25vw;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 500px) {
+  .images div{
+    margin: 20px;
+    background-color: rgb(75, 183, 238);
+    padding: 30px;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+  }
   .images img{  
     border: 3px solid black;
     width: 80vw;
@@ -183,19 +214,21 @@ header{
   }
 }
 
+@media screen and (max-width: 380px) {
+  .leftside div p{
+    margin-top: 20px;
+    font-size: 3vw;
+  }
+  .images div{
+    font-size: 3vw;
 
-footer{
-  height: 100%;
-  padding-bottom: 1vw;
-  width: 100vw;
-  background-color:#000000;
+  }
+
 }
 
-footer p{
-  padding-top: 3vw;
-  color: #ffffff;
-  text-align: center;
-}
+
+
+
 
 
 
